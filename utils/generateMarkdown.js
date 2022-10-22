@@ -54,11 +54,15 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  let tableOfContents = ['Description', 'Contents', 'Installation', 'Usage', 'License', 'Contribution', 'Tests', 'Questions']
+  let tableOfContents = ['Description', 'Contents', 'Installation', 'Usage', 'License', 'Contribution', 'Tests', 'Questions'];
+  let tableOfContentsMarkdown = "";
+  for (let i = 0; i < tableOfContents.length; i++) {
+    tableOfContentsMarkdown += (i+1) +'. [' + tableOfContents[i] + '](#' + tableOfContents[i][0].toLowerCase() + tableOfContents[i].substring(1) + ')\n';
+  }
   return `# ${data.title} ${renderLicenseBadge(data.license)}
 
-  ##Table of contents:
-  ${markdown}
+  ## Table of contents:
+  ### ${tableOfContentsMarkdown}
 
   ## Description 
   ### ${data.description}
