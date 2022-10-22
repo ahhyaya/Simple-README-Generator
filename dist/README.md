@@ -1,4 +1,4 @@
-# d ![License](https://img.shields.io/badge/license-MIT-green)
+# Simple-README-Generator ![License](https://img.shields.io/badge/license-MIT-green)
 
   ## Table of contents:
   ### 
@@ -13,15 +13,15 @@
   ---
 
   ## Description 
-  ### d
+  ### When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.
   ---
 
   ## Installation
-  ### d
+  ### npm i inquirer@8.2.4
   ---
 
   ## Usage
-  ### d
+  ### Use to create a command-line application that dynamically generates a professional README.md file from a user's input.
   ---
 
   ## License
@@ -31,14 +31,14 @@
   ---
 
   ## Contribution
-  ### d
+  ### To get an overview of the project, read the README.
   ---
 
   ## Tests
-  ### d
+  ### node index.js
   ---
   
   ## Questions
   ### Reach me with additional questions:
-  ### Github Link: https://github.com/d
-  ### Email Address: d
+  ### Github Link: https://github.com/ahhyaya
+  ### Email Address: toruig59@gmail.com
