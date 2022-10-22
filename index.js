@@ -57,10 +57,10 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    const fileName = './dist/README.md';
+function writeToFile(data) {
+    let fileName = './dist/README.md';
     fs.writeFileSync(fileName,data,(err) => {
-        err ? console.log(err) : console.log(`${fileName} + is ready!`);
+        err ? console.log(err) : console.log('Your README is ready!');
     });
 }
 
