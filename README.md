@@ -11,17 +11,17 @@ You can quickly and easily create a README file by using a command-line applicat
 
 * add license badge and table of contents:
 
-![feature1](./1.png)
+![feature1](./assets/1.png)
 
 
 * command-line application that accepts user input:
 
-![feature1](./2.png)
+![feature1](./assets/2.png)
 
 
 * can choose a license for my application from a list of options:
 
-![feature1](./3.png)
+![feature1](./assets/3.png)
 
 
 ## Description
@@ -35,7 +35,7 @@ Use to create a command-line application that dynamically generates a profession
 
 ## Demonstration
 ---
-![example Demo](./demo.gif)
+![example Demo](./assets/demo.gif)
 
 
 ## Technologies
