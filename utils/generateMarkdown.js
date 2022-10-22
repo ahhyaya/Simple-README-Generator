@@ -49,7 +49,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   let licenseSection = "";
   if (license != 'None') {
-    licenseSection += '## License\n';
+    // licenseSection += '## License\n';
     licenseSection += `Read more about ${license}: ${renderLicenseLink(license)} \n`;
   }
   return licenseSection;
@@ -58,7 +58,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 
 function generateMarkdown(data) {
-  let tableOfContents = ['Description', 'Contents', 'Installation', 'Usage', 'License', 'Contribution', 'Tests', 'Questions'];
+  let tableOfContents = ['Description', 'Installation', 'Usage', 'License', 'Contribution', 'Tests', 'Questions'];
   let tableOfContentsMarkdown = "";
   for (let i = 0; i < tableOfContents.length; i++) {
     tableOfContentsMarkdown += (i + 1) + '. [' + tableOfContents[i] + '](#' + tableOfContents[i][0].toLowerCase() + tableOfContents[i].substring(1) + ')\n';
@@ -72,10 +72,6 @@ function generateMarkdown(data) {
 
   ## Description 
   ### ${data.description}
-  ---
-
-  ## Contents
-  ### ${data.contents}
   ---
 
   ## Installation

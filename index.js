@@ -17,11 +17,6 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contents',
-        message: 'Please enter your project contents: '
-    },
-    {
-        type: 'input',
         name: 'installation',
         message: 'What command should be run to install dependencies? '
     },
