@@ -15,27 +15,34 @@
 
   ## Description 
   ### d
+  ---
 
   ## Contents
   ### d
-  
+  ---
+
   ## Installation
   ### d
-  
+  ---
+
   ## Usage
   ### d
-  
+  ---
+
   ## License
   ### MIT
   ## License
 Read more about MIT: https://opensource.org/licenses/MIT 
 
-  
+  ---
+
   ## Contribution
   ### d
+  ---
 
   ## Tests
   ### d
+  ---
   
   ## Questions
   ### Reach me with additional questions:

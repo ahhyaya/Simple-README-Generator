@@ -1,5 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+
 function renderLicenseBadge(license) {
   let licenseBadge = "";
   if (license != 'None') {
@@ -10,6 +11,7 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
+
 function renderLicenseLink(license) {
   let licenseLink = "";
   switch (license) {
@@ -43,21 +45,23 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
+
 function renderLicenseSection(license) {
   let licenseSection = "";
   if (license != 'None') {
     licenseSection += '## License\n';
     licenseSection += `Read more about ${license}: ${renderLicenseLink(license)} \n`;
- }
- return licenseSection;
+  }
+  return licenseSection;
 }
 
 // TODO: Create a function to generate markdown for README
+
 function generateMarkdown(data) {
   let tableOfContents = ['Description', 'Contents', 'Installation', 'Usage', 'License', 'Contribution', 'Tests', 'Questions'];
   let tableOfContentsMarkdown = "";
   for (let i = 0; i < tableOfContents.length; i++) {
-    tableOfContentsMarkdown += (i+1) +'. [' + tableOfContents[i] + '](#' + tableOfContents[i][0].toLowerCase() + tableOfContents[i].substring(1) + ')\n';
+    tableOfContentsMarkdown += (i + 1) + '. [' + tableOfContents[i] + '](#' + tableOfContents[i][0].toLowerCase() + tableOfContents[i].substring(1) + ')\n';
   }
   return `# ${data.title} ${renderLicenseBadge(data.license)}
 

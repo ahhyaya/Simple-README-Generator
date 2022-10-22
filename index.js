@@ -46,11 +46,6 @@ const questions = [
         name: 'test',
         message: 'What command should be run to run the tests? '
     },
-    // {
-    //     type: 'input',
-    //     name: 'questions',
-    //     message: 'What are the questions of your project? '
-    // },
     {
         type: 'input',
         name: 'username',
@@ -66,7 +61,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(data) {
     let fileName = './dist/README.md';
-    fs.writeFileSync(fileName,data,(err) => {
+    fs.writeFileSync(fileName, data, (err) => {
         err ? console.log(err) : console.log('Your README is ready!');
     });
 }
@@ -74,7 +69,7 @@ function writeToFile(data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(answers => writeToFile(generateMarkdown(answers)));
+        .then(answers => writeToFile(generateMarkdown(answers)));
 }
 
 // Function call to initialize app
