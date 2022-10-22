@@ -1,4 +1,4 @@
-# d ![License](https://img.shields.io/badge/license-d-green)
+# d ![License](https://img.shields.io/badge/license-MIT-green)
 
   ## Table of contents:
   ### 
@@ -25,7 +25,7 @@
   ### d
   
   ## License
-  ### d
+  ### MIT
   
   ## Contribution
   ### d

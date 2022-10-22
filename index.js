@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
+const { default: Choices } = require('inquirer/lib/objects/choices');
 const generateMarkdown = require('./utils/generateMarkdown')
 // TODO: Create an array of questions for user input
 const questions = [
@@ -30,9 +31,10 @@ const questions = [
         message: 'Please enter the usage of your project: '
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: 'What kind of license should your project have? '
+        message: 'What kind of license should your project have? ',
+        choices: ['MIT', 'IBM', 'Mozilla', 'Perl', 'Eclipse', 'Zlib', 'Open Data Commons', 'None']
     },
     {
         type: 'input',
