@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   let licenseBadge = "";
   if (license != 'None') {
-    licenseBadge = `![License](https://img.shields.io/badge/license- ${license} -green)`;
+    licenseBadge = `![License](https://img.shields.io/badge/license-${license}-green)`;
   }
   return licenseBadge;
 }
@@ -55,6 +55,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title} 
+  ${renderLicenseBadge(data.license)}
   ## Description 
   ### ${data.description}
 
