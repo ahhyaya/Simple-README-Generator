@@ -26,15 +26,18 @@
   
   ## License
   ### MIT
+  ## License
+Read more about MIT: https://opensource.org/licenses/MIT 
+
   
   ## Contribution
-  ### d
+  ### dd
   
   ## Questions
   ### d
 
   ## Tests
-  ### d
+  ### 
   
   ### Github Username: d
   ### My email address: d

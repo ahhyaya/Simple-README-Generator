@@ -79,6 +79,7 @@ function generateMarkdown(data) {
   
   ## License
   ### ${data.license}
+  ${renderLicenseSection(data.license)}
   
   ## Contribution
   ### ${data.contribute}
