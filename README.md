@@ -9,6 +9,21 @@
 You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
 
 
+* add license badge and table of contents:
+
+![feature1](./1.png)
+
+
+* command-line application that accepts user input:
+
+![feature1](./2.png)
+
+
+* can choose a license for my application from a list of options:
+
+![feature1](./3.png)
+
+
 ## Description
 ---
 When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.
@@ -21,6 +36,7 @@ Use to create a command-line application that dynamically generates a profession
 ## Demonstration
 ---
 ![example Demo](./demo.gif)
+
 
 ## Technologies
 ---
