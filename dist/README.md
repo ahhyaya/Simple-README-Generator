@@ -11,6 +11,7 @@
 7. [Tests](#tests)
 8. [Questions](#questions)
 
+  ---
 
   ## Description 
   ### d
@@ -31,13 +32,12 @@ Read more about MIT: https://opensource.org/licenses/MIT
 
   
   ## Contribution
-  ### dd
-  
-  ## Questions
   ### d
 
   ## Tests
-  ### 
+  ### d
   
-  ### Github Username: d
-  ### My email address: d
+  ## Questions
+  ### Reach me with additional questions:
+  ### Github Link: https://github.com/d
+  ### Email Address: d

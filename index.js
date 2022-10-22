@@ -46,11 +46,11 @@ const questions = [
         name: 'test',
         message: 'What command should be run to run the tests? '
     },
-    {
-        type: 'input',
-        name: 'questions',
-        message: 'What are the questions of your project? '
-    },
+    // {
+    //     type: 'input',
+    //     name: 'questions',
+    //     message: 'What are the questions of your project? '
+    // },
     {
         type: 'input',
         name: 'username',

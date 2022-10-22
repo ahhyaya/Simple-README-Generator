@@ -64,34 +64,41 @@ function generateMarkdown(data) {
   ## Table of contents:
   ### 
   ${tableOfContentsMarkdown}
+  ---
 
   ## Description 
   ### ${data.description}
+  ---
 
   ## Contents
   ### ${data.contents}
-  
+  ---
+
   ## Installation
   ### ${data.installation}
-  
+  ---
+
   ## Usage
   ### ${data.usage}
-  
+  ---
+
   ## License
   ### ${data.license}
   ${renderLicenseSection(data.license)}
-  
+  ---
+
   ## Contribution
   ### ${data.contribute}
-  
-  ## Questions
-  ### ${data.questions}
+  ---
 
   ## Tests
   ### ${data.test}
+  ---
   
-  ### Github Username: ${data.username}
-  ### My email address: ${data.email}
+  ## Questions
+  ### Reach me with additional questions:
+  ### Github Link: https://github.com/${data.username}
+  ### Email Address: ${data.email}
 `;
 }
 
